@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography } from '@mui/material';
+import '../styles.css';
 
 const TotalExpenses = ({ total }) => {
   return (

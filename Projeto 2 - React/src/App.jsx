@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ExpensesForm from './components/ExpensesForm';
 import ExpenseList from './components/ExpenseList';
 import TotalExpenses from './components/TotalExpenses';
-import DarkTheme from './themes/DarkTheme';
+import LightTheme from './themes/LightTheme';
 import { Container, Typography, Paper, CssBaseline, ThemeProvider } from '@mui/material';
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
   const ExpensesSum = expenses.reduce((total, expense) => total + expense.value, 0);
 
   return (
-    <ThemeProvider theme={DarkTheme}>
+    <ThemeProvider theme={LightTheme}>
       <CssBaseline />
       <Container>
         <Paper style={{ padding: '16px', marginTop: '16px' }}>

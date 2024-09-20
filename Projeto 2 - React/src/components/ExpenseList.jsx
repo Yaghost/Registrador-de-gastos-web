@@ -1,6 +1,7 @@
 import React from 'react';
 import { List, ListItem, ListItemText, IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/DeleteOutline';
+import '../styles.css';
 
 const ExpenseList = ({ expenses, removeExpense }) => {
   return (

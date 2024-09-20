@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MuiList-root {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 20px;
+  }
+  
+  .MuiListItem-root {
+    background-color: white;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MuiListItemText-primary {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .MuiListItemText-secondary {
+    color: #666;
+  }
+  
+  .MuiIconButton-root {
+    color: #d32f2f; /* Cor para o botão de deletar */
+  }
+  
+  .MuiTypography-root {
+    margin-top: 20px;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Estilo do formulário */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .MuiGrid-container {
+    margin-top: 10px;
+  }
+  
+  .MuiTextField-root {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #1976d2;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #115293;
+  }
+  
+  
